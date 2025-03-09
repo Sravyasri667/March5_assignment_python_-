@@ -19,6 +19,9 @@ print(odd_numbers)
 my_list = [("apple", 50), ("banana", 10), ("cherry", 30)]
 sorted_list = sorted(my_list, key=lambda x: x[1])
 print(sorted_list)
+
+output:
+
 25
 21
 10
@@ -56,6 +59,8 @@ fruits = ['apple', 'banana', 'cherry']
 res = map(str.upper, fruits)
 print(list(res))
 
+output:
+    
 [1, 2, 3, 4]
 [2, 4, 6, 8]
 [3, 6, 9, 12]
@@ -91,6 +96,8 @@ names = ["Alice", "Bob", "Andrew", "Charlie", "Anna"]
 a_names = list(filter(lambda x: x.startswith("A"), names))
 print(a_names)
 
+output: 
+
 [2, 4, 6]
 [2, 4, 6]
 [2, 4, 6, 8, 10]
@@ -99,4 +106,3 @@ print(a_names)
 
 ** Process exited - Return Code: 0 **
 Press Enter to exit terminal
-
